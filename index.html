@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/04b6e0a84e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main>
+    <section class="mt-20 w-3/4 mx-auto">
+        <div class="border h-[450px] border-blue-400 bg-blue-500">
+
+            <h1 class="text-black text-center text-3xl font-semibold">My Text Editor</h1>
+
+            <div class="border border-blue-500  mx-10 bg-white grid grid-cols-1 ">
+            <div class="flex justify-between p-3">
+                <div class="">
+                    <ul class="flex gap-3 p-3">
+                        <li id="bold"><i class="fa-solid fa-bold"></i></li>
+                        <li id="italic"><i class="fa-solid fa-italic"></i></li>
+                        <li id="underline"><i class="fa-solid fa-underline"></i></li>
+                    </ul>
+    
+                 </div>
+                 <div>
+                    <ul class="flex gap-3 p-3">
+                        <li id="left"><i class="fa-solid fa-align-left"></i></li>
+                        
+                        <li id="center"><i class="fa-solid fa-align-center"></i></li>
+                        <li id="right"><i class="fa-solid fa-align-right"></i></li>
+                        
+                    </ul>
+                </div>
+                    <div>
+                        <ul class=" flex gap-3 p-3">
+                            <li><label for="color">Please chose a color </label>
+                                <input type="color" id="color" name="color2"></li>
+                        </ul>
+                    </div>
+    
+            </div>
+                <div class="w-full mx-3 ">
+                    <textarea id="text-field" class="p-2 border-2   border-black " name="" id="" cols="120" rows="11"></textarea>
+                </div>
+            </div>
+            <br >
+                
+            
+
+        </div>
+    </section>
+
+</main>
+
+
+<script src="js/editor.js"></script>
+</body>
+</html>
